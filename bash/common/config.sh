@@ -1,0 +1,9 @@
+www_data=/var/www/data
+www_backup=/var/www/backup
+public_html=public_html
+index=index.html
+etc_nginx=/etc/nginx
+etc_php_fpm=/etc/php5/fpm
+need_php=true
+need_pgsql=true
+storage_time=$((3600*24*7))

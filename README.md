@@ -1,8 +1,10 @@
-# dws-tools (comming soon)
+# Debian Web Server Tools #
 
-Debian web server tools:
+**WARNING: It will be moved to https://github.com/sayonara-sama/dws-tools in a few days.**
 
-* Compatible with **Debian-based** operating systems
-* Works with **nginx**+**PostgreSQL**+**PHP-FPM**
+Administration tools for web-server:
 
-It will be moved from https://bitbucket.org/sayonara-sama/debian-web-server-tools in a few days.
+* Compatible with Debian-based operating systems
+* Works with nginx+PostgreSQL+PHP-FPM
+
+[Wiki](https://bitbucket.org/sayonara-sama/debian-web-server-tools/wiki/Home)
