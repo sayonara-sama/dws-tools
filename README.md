@@ -1,7 +1,5 @@
 # Debian Web Server Tools #
 
-**WARNING: It will be moved to https://github.com/sayonara-sama/dws-tools in a few days.**
-
 Administration tools for web-server:
 
 * Compatible with Debian-based operating systems
