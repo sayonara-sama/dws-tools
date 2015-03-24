@@ -23,9 +23,10 @@ if [ $1 ]; then
 	# data	
 	echo "Creating user $user..."
 	mkdir -p $www_data/$user/$public_html $www_data/$user/.cache $www_data/$user/.config $www_data/$user/.local
+	touch $www_data/$user/.viminfo
 	echo "Welcome to $user!" > $www_data/$user/$public_html/$index
 	useradd -s /bin/bash -U -G www-data -d $www_data/$user -p $crypted_pass $user
-	chown -R $user:$user $www_data/$user/$public_html $www_data/$user/.cache $www_data/$user/.config $www_data/$user/.local
+	chown -R $user:$user $www_data/$user/$public_html $www_data/$user/.cache $www_data/$user/.config $www_data/$user/.local $www_data/$user/.viminfo
 
 	# nginx
 	echo "Creating nginx virtual host..." 
