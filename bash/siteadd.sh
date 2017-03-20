@@ -40,8 +40,8 @@ if [ $1 ]; then
 
 	# php-fpm
 	if [ "$need_php" == true ]; then
-		echo "Creating PHP-FPM pool (unix:/var/run/php5-fpm.$user.sock)..."
-		cat ./templates/php5-fpm.pool.d.conf | sed "s/{{user}}/$user/g" > ./templates/temp.conf
+		echo "Creating PHP-FPM pool (unix:/var/run/php-fpm.$user.sock)..."
+		cat ./templates/php-fpm.pool.d.conf | sed "s/{{user}}/$user/g" > ./templates/temp.conf
 		mv ./templates/temp.conf $etc_php_fpm/pool.d/$user.conf
 	fi
 
